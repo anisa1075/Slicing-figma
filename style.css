@@ -1,0 +1,53 @@
+anton-prawijaya {
+  margin: 0;
+  font-weight: 600;
+}
+.artisinfluencers {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: var(--color-peru-100);
+}
+.anton-prawijaya-artisinfluenc-container,
+.suka-banget-sama {
+  position: absolute;
+  top: 229px;
+  left: 37px;
+}
+.suka-banget-sama {
+  top: 333px;
+  font-size: var(--font-size-11xl);
+  font-weight: 300;
+  display: inline-block;
+  width: 431px;
+}
+.frame-child {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.star-parent {
+  position: absolute;
+  top: 524px;
+  left: 37px;
+  width: 273px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.anton-prawijaya-artisinfluenc-parent {
+  position: absolute;
+  top: 4239px;
+  left: 80px;
+  border-radius: var(--br-xl);
+  width: 553px;
+  height: 596px;
+  overflow: hidden;
+  background-image: url(./public/frame-28@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--font-size-16xl);
+}

@@ -1,0 +1,328 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-glam nav .container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar-glam nav .container .navbar-brand {
+  margin-right: 290px;
+  margin-left: 0%;
+}
+.navbar-glam nav .container .navbar-brand .navbar-img {
+  width: 230px;
+  height: 50px;
+  gap: 18px;
+}
+.navbar-glam nav .container .collapse ul {
+  padding-right: 50px;
+}
+.navbar-glam nav .container .collapse ul .nav-item {
+  margin-right: 54px;
+}
+.navbar-glam nav .container .collapse ul .nav-item .nav-link {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 45px;
+}
+.navbar-glam nav .container .collapse ul .nav-item :hover {
+  color: blue;
+}
+.navbar-glam nav .container .collapse ul .nav-item .active {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 45px;
+}
+.navbar-glam nav .container .collapse .btn-capture {
+  background-color: black;
+  color: white;
+  padding: 9.5px 36px;
+  border-radius: 40px;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.navbar-glam nav .container .collapse .btn-capture:hover {
+  background-color: blue;
+  opacity: 50%;
+}
+
+.hero {
+  background-color: black;
+  margin-top: 0%;
+}
+.hero .hero-section {
+  margin-left: 70px;
+}
+.hero .hero-section .row .content-hero .hero-title {
+  margin-top: 111px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 80px;
+  color: white;
+}
+.hero .hero-section .row .content-hero .desc {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 35px;
+  color: white;
+  width: 590px;
+}
+.hero .hero-section .row .content-hero .btn-hero {
+  color: black;
+  background-color: white;
+  border-radius: 40px;
+  padding-left: 15px;
+  padding-right: 10px;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 196px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 45px;
+}
+.hero .hero-section .row .content-hero .btn-hero:hover {
+  background-color: blue;
+  color: white;
+}
+.hero .hero-section .row .img-fluid {
+  margin-top: 144px;
+  width: 90%;
+  margin-left: 50px;
+}
+@media (max-width: 912px) {
+  .hero .hero-section .row .img-fluid {
+    margin-top: 10px;
+  }
+}
+
+section h3 {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+}
+section .row {
+  margin-left: 7px;
+}
+section .row .content-service img {
+  width: 300px;
+  margin-right: 50px;
+  transition: all 0.7s ease 0.2s;
+}
+section .row .content-service img:hover {
+  opacity: 0.5;
+  transform: scale(1);
+}
+section .row .magazine {
+  margin-top: 150px;
+}
+section .row .row .women img {
+  width: 270px;
+  margin-right: 80px;
+  padding-right: 20px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.7s ease 0.2s;
+}
+section .row .row .women img:hover {
+  opacity: 0.5;
+  transform: scale(1);
+}
+section .row .row .women .btn-women {
+  background-color: #d9d9d9;
+  border-radius: 0px 0px 16px 16px;
+  padding: 15px 17px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 99pxpx;
+  margin-top: 390px;
+  font-weight: 600px;
+  font-size: 19px;
+  line-height: 45px;
+  color: #37576e;
+}
+section .row .row .women .btn-women:hover {
+  background-color: #a9a1a1;
+}
+section .row .row .genz img {
+  width: 270px;
+  margin-right: 80px;
+  padding-right: 20px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.7s ease 0.2s;
+}
+section .row .row .genz img:hover {
+  opacity: 0.5;
+  transform: scale(1);
+}
+section .row .row .genz .btn-genz {
+  background-color: #d40468;
+  border-radius: 0px 0px 16px 16px;
+  padding: 15px 54.3px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 390px;
+  font-weight: 600px;
+  font-size: 19px;
+  line-height: 45px;
+  color: #dee0db;
+}
+section .row .row .genz .btn-genz:hover {
+  background-color: #bd085f;
+}
+section .row .row .make img {
+  width: 270px;
+  margin-right: 50px;
+  padding-right: 20px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.7s ease 0.2s;
+}
+section .row .row .make img:hover {
+  opacity: 0.5;
+  transform: scale(1);
+}
+section .row .row .make .btn-make {
+  background-color: #6561ab;
+  border-radius: 0px 0px 16px 16px;
+  padding: 15px 16.9px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 390px;
+  font-weight: 600px;
+  font-size: 19px;
+  line-height: 45px;
+  color: #ff94b0;
+}
+section .row .row .make .btn-make:hover {
+  background-color: #5a579a;
+}
+section .row .amazing img {
+  width: 270px;
+  margin-right: 50px;
+  padding-right: 20px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.7s ease 0.2s;
+}
+section .row .amazing img:hover {
+  opacity: 0.5;
+  transform: scale(1);
+}
+section .row .amazing .btn-amazing {
+  background-color: #d08541;
+  border-radius: 0px 0px 15px 15px;
+  padding: 15px 38.8px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 390px;
+  font-weight: 600px;
+  font-size: 19px;
+  line-height: 45px;
+  color: #1d282e;
+}
+section .row .amazing .btn-amazing:hover {
+  background-color: #b77537;
+}
+@media (max-width: 912px) {
+  section .row img {
+    margin-bottom: 50px;
+  }
+}
+section .more {
+  text-align: center;
+  margin-top: 157px;
+  font-weight: 500px;
+  font-size: 30px;
+  line-height: 45px;
+  color: black;
+}
+section .more:hover {
+  color: blue;
+  opacity: 75%;
+}
+
+.customers .container .row img {
+  width: 300px;
+  transition: width 1s;
+}
+.customers .container .row img:hover {
+  width: 330px;
+}
+
+footer {
+  background-color: black;
+  margin-top: 192px;
+  padding-bottom: 150px;
+}
+footer .row .col img {
+  width: 230px;
+  margin-left: 79px;
+  margin-top: 66px;
+}
+footer .row .col .pt {
+  margin-left: 79px;
+  margin-top: 20px;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+footer .row .col .jalan {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 79px;
+}
+footer .row .col-company {
+  color: white;
+  margin-left: 200px;
+}
+footer .row .col-company .company {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-top: 66px;
+}
+footer .row .col-company .btn-akses a {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  color: white;
+  text-decoration: none;
+  float: left;
+}
+footer .row .col-company .btn-akses a:hover {
+  color: blue;
+}
+footer .row .col {
+  color: white;
+}
+footer .row .col .connect {
+  margin-top: 86px;
+  font-weight: 700;
+  font-size: 30px;
+}
+footer .row .col .btn-medsos .img-ig {
+  width: 40px;
+  float: left;
+  margin-left: 0%;
+  margin-top: 0%;
+}
+footer .row .col .btn-medsos .img-ig:hover {
+  opacity: 75%;
+}
+footer .row .col .btn-medsos .ig {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 45px;
+  margin-left: 8px;
+}
+footer .row .col .btn-medsos .ig:hover {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
